@@ -1,0 +1,414 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'socket.io',
+1 verbose cli   'epxress',
+1 verbose cli   'johnny-five' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 verbose cache add [ 'socket.io', null ]
+5 verbose cache add name=undefined spec="socket.io" args=["socket.io",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'socket.io',
+6 verbose parsed url   path: 'socket.io',
+6 verbose parsed url   href: 'socket.io' }
+7 verbose cache add [ 'epxress', null ]
+8 verbose cache add name=undefined spec="epxress" args=["epxress",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'epxress',
+9 verbose parsed url   path: 'epxress',
+9 verbose parsed url   href: 'epxress' }
+10 verbose cache add [ 'johnny-five', null ]
+11 verbose cache add name=undefined spec="johnny-five" args=["johnny-five",null]
+12 verbose parsed url { protocol: null,
+12 verbose parsed url   slashes: null,
+12 verbose parsed url   auth: null,
+12 verbose parsed url   host: null,
+12 verbose parsed url   port: null,
+12 verbose parsed url   hostname: null,
+12 verbose parsed url   hash: null,
+12 verbose parsed url   search: null,
+12 verbose parsed url   query: null,
+12 verbose parsed url   pathname: 'johnny-five',
+12 verbose parsed url   path: 'johnny-five',
+12 verbose parsed url   href: 'johnny-five' }
+13 silly lockFile a77f5afb-epxress epxress
+14 verbose lock epxress /Users/kevint2u/.npm/a77f5afb-epxress.lock
+15 silly lockFile 71475bfd-socket-io socket.io
+16 verbose lock socket.io /Users/kevint2u/.npm/71475bfd-socket-io.lock
+17 silly lockFile da7ffa14-johnny-five johnny-five
+18 verbose lock johnny-five /Users/kevint2u/.npm/da7ffa14-johnny-five.lock
+19 silly lockFile a77f5afb-epxress epxress
+20 silly lockFile a77f5afb-epxress epxress
+21 silly lockFile da7ffa14-johnny-five johnny-five
+22 silly lockFile da7ffa14-johnny-five johnny-five
+23 verbose addNamed [ 'epxress', '' ]
+24 verbose addNamed [ null, '*' ]
+25 silly lockFile e06c22e2-epxress epxress@
+26 verbose lock epxress@ /Users/kevint2u/.npm/e06c22e2-epxress.lock
+27 verbose addNamed [ 'johnny-five', '' ]
+28 verbose addNamed [ null, '*' ]
+29 silly lockFile 22931f58-johnny-five johnny-five@
+30 verbose lock johnny-five@ /Users/kevint2u/.npm/22931f58-johnny-five.lock
+31 silly lockFile 71475bfd-socket-io socket.io
+32 silly lockFile 71475bfd-socket-io socket.io
+33 silly addNameRange { name: 'epxress', range: '*', hasData: false }
+34 verbose addNamed [ 'socket.io', '' ]
+35 verbose addNamed [ null, '*' ]
+36 silly lockFile c03de861-socket-io socket.io@
+37 verbose lock socket.io@ /Users/kevint2u/.npm/c03de861-socket-io.lock
+38 verbose request where is /epxress
+39 verbose request registry https://registry.npmjs.org/
+40 verbose request id 18d32b8cd6446cd1
+41 verbose url raw /epxress
+42 verbose url resolving [ 'https://registry.npmjs.org/', './epxress' ]
+43 verbose url resolved https://registry.npmjs.org/epxress
+44 verbose request where is https://registry.npmjs.org/epxress
+45 info trying registry request attempt 1 at 00:25:05
+46 http GET https://registry.npmjs.org/epxress
+47 silly addNameRange { name: 'johnny-five', range: '*', hasData: false }
+48 silly addNameRange { name: 'socket.io', range: '*', hasData: false }
+49 verbose request where is /socket.io
+50 verbose request registry https://registry.npmjs.org/
+51 verbose url raw /socket.io
+52 verbose url resolving [ 'https://registry.npmjs.org/', './socket.io' ]
+53 verbose url resolved https://registry.npmjs.org/socket.io
+54 verbose request where is https://registry.npmjs.org/socket.io
+55 info trying registry request attempt 1 at 00:25:05
+56 http GET https://registry.npmjs.org/socket.io
+57 verbose request where is /johnny-five
+58 verbose request registry https://registry.npmjs.org/
+59 verbose url raw /johnny-five
+60 verbose url resolving [ 'https://registry.npmjs.org/', './johnny-five' ]
+61 verbose url resolved https://registry.npmjs.org/johnny-five
+62 verbose request where is https://registry.npmjs.org/johnny-five
+63 info trying registry request attempt 1 at 00:25:05
+64 verbose etag "5IWT3MKGL830625JOSZK9YTMI"
+65 http GET https://registry.npmjs.org/johnny-five
+66 http 200 https://registry.npmjs.org/socket.io
+67 silly registry.get cb [ 200,
+67 silly registry.get   { date: 'Sun, 30 Nov 2014 05:25:05 GMT',
+67 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+67 silly registry.get     etag: '"204LXKH3R5W7GUUILRZ92T0AH"',
+67 silly registry.get     'content-type': 'application/json',
+67 silly registry.get     'cache-control': 'max-age=60',
+67 silly registry.get     'content-length': '102862',
+67 silly registry.get     'accept-ranges': 'bytes',
+67 silly registry.get     via: '1.1 varnish',
+67 silly registry.get     age: '27',
+67 silly registry.get     'x-served-by': 'cache-iad2136-IAD',
+67 silly registry.get     'x-cache': 'HIT',
+67 silly registry.get     'x-cache-hits': '135',
+67 silly registry.get     'x-timer': 'S1417325105.527400,VS0,VE0',
+67 silly registry.get     vary: 'Accept',
+67 silly registry.get     'keep-alive': 'timeout=10, max=50',
+67 silly registry.get     connection: 'Keep-Alive' } ]
+68 http 404 https://registry.npmjs.org/epxress
+69 verbose headers { date: 'Sun, 30 Nov 2014 05:25:05 GMT',
+69 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+69 verbose headers   'content-type': 'application/json',
+69 verbose headers   'cache-control': 'max-age=0',
+69 verbose headers   'content-length': '52',
+69 verbose headers   'accept-ranges': 'bytes',
+69 verbose headers   via: '1.1 varnish',
+69 verbose headers   age: '0',
+69 verbose headers   'x-served-by': 'cache-iad2145-IAD',
+69 verbose headers   'x-cache': 'MISS',
+69 verbose headers   'x-cache-hits': '0',
+69 verbose headers   'x-timer': 'S1417325105.523947,VS0,VE52',
+69 verbose headers   'keep-alive': 'timeout=10, max=50',
+69 verbose headers   connection: 'Keep-Alive' }
+70 silly registry.get cb [ 404,
+70 silly registry.get   { date: 'Sun, 30 Nov 2014 05:25:05 GMT',
+70 silly registry.get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+70 silly registry.get     'content-type': 'application/json',
+70 silly registry.get     'cache-control': 'max-age=0',
+70 silly registry.get     'content-length': '52',
+70 silly registry.get     'accept-ranges': 'bytes',
+70 silly registry.get     via: '1.1 varnish',
+70 silly registry.get     age: '0',
+70 silly registry.get     'x-served-by': 'cache-iad2145-IAD',
+70 silly registry.get     'x-cache': 'MISS',
+70 silly registry.get     'x-cache-hits': '0',
+70 silly registry.get     'x-timer': 'S1417325105.523947,VS0,VE52',
+70 silly registry.get     'keep-alive': 'timeout=10, max=50',
+70 silly registry.get     connection: 'Keep-Alive' } ]
+71 silly lockFile e06c22e2-epxress epxress@
+72 silly lockFile e06c22e2-epxress epxress@
+73 http 304 https://registry.npmjs.org/johnny-five
+74 silly registry.get cb [ 304,
+74 silly registry.get   { date: 'Sun, 30 Nov 2014 05:25:05 GMT',
+74 silly registry.get     server: 'Apache',
+74 silly registry.get     via: '1.1 varnish',
+74 silly registry.get     'last-modified': 'Sun, 30 Nov 2014 05:25:05 GMT',
+74 silly registry.get     'cache-control': 'max-age=60',
+74 silly registry.get     etag: '"5IWT3MKGL830625JOSZK9YTMI"',
+74 silly registry.get     age: '0',
+74 silly registry.get     'x-served-by': 'cache-iad2143-IAD',
+74 silly registry.get     'x-cache': 'HIT',
+74 silly registry.get     'x-cache-hits': '1',
+74 silly registry.get     'x-timer': 'S1417325105.536482,VS0,VE63',
+74 silly registry.get     vary: 'Accept',
+74 silly registry.get     'content-length': '0',
+74 silly registry.get     'keep-alive': 'timeout=10, max=50',
+74 silly registry.get     connection: 'Keep-Alive' } ]
+75 verbose etag https://registry.npmjs.org/johnny-five from cache
+76 silly addNameRange number 2 { name: 'socket.io', range: '*', hasData: true }
+77 silly addNameRange versions [ 'socket.io',
+77 silly addNameRange   [ '0.3.8',
+77 silly addNameRange     '0.4.0',
+77 silly addNameRange     '0.4.1',
+77 silly addNameRange     '0.5.1',
+77 silly addNameRange     '0.5.3',
+77 silly addNameRange     '0.6.0',
+77 silly addNameRange     '0.6.1',
+77 silly addNameRange     '0.6.3',
+77 silly addNameRange     '0.6.4',
+77 silly addNameRange     '0.6.5',
+77 silly addNameRange     '0.6.6',
+77 silly addNameRange     '0.6.7',
+77 silly addNameRange     '0.6.8',
+77 silly addNameRange     '0.6.9',
+77 silly addNameRange     '0.6.10',
+77 silly addNameRange     '0.6.11',
+77 silly addNameRange     '0.6.12',
+77 silly addNameRange     '0.6.14',
+77 silly addNameRange     '0.6.15',
+77 silly addNameRange     '0.6.16',
+77 silly addNameRange     '0.6.17',
+77 silly addNameRange     '0.6.18',
+77 silly addNameRange     '0.7.0',
+77 silly addNameRange     '0.7.1',
+77 silly addNameRange     '0.7.2',
+77 silly addNameRange     '0.7.3',
+77 silly addNameRange     '0.7.4',
+77 silly addNameRange     '0.7.5',
+77 silly addNameRange     '0.7.6',
+77 silly addNameRange     '0.7.7',
+77 silly addNameRange     '0.7.8',
+77 silly addNameRange     '0.7.9',
+77 silly addNameRange     '0.7.10',
+77 silly addNameRange     '0.7.11',
+77 silly addNameRange     '0.8.0',
+77 silly addNameRange     '0.8.1',
+77 silly addNameRange     '0.8.2',
+77 silly addNameRange     '0.8.3',
+77 silly addNameRange     '0.8.4',
+77 silly addNameRange     '0.8.5',
+77 silly addNameRange     '0.8.6',
+77 silly addNameRange     '0.8.7',
+77 silly addNameRange     '0.9.0',
+77 silly addNameRange     '0.9.1',
+77 silly addNameRange     '0.9.1-1',
+77 silly addNameRange     '0.9.2',
+77 silly addNameRange     '0.9.3',
+77 silly addNameRange     '0.9.4',
+77 silly addNameRange     '0.9.5',
+77 silly addNameRange     '0.9.6',
+77 silly addNameRange     '0.9.7',
+77 silly addNameRange     '0.9.8',
+77 silly addNameRange     '0.9.9',
+77 silly addNameRange     '0.9.10',
+77 silly addNameRange     '0.9.11',
+77 silly addNameRange     '0.9.12',
+77 silly addNameRange     '0.9.13',
+77 silly addNameRange     '0.9.14',
+77 silly addNameRange     '0.9.15',
+77 silly addNameRange     '0.9.16',
+77 silly addNameRange     '1.0.0-pre',
+77 silly addNameRange     '1.0.0-pre2',
+77 silly addNameRange     '1.0.0-pre3',
+77 silly addNameRange     '1.0.0-pre4',
+77 silly addNameRange     '1.0.0-pre5',
+77 silly addNameRange     '0.9.17',
+77 silly addNameRange     '1.0.0',
+77 silly addNameRange     '1.0.1',
+77 silly addNameRange     '1.0.2',
+77 silly addNameRange     '1.0.3',
+77 silly addNameRange     '1.0.4',
+77 silly addNameRange     '1.0.5',
+77 silly addNameRange     '1.0.6',
+77 silly addNameRange     '1.1.0',
+77 silly addNameRange     '1.2.0',
+77 silly addNameRange     '1.2.1' ] ]
+78 verbose addNamed [ 'socket.io', '1.2.1' ]
+79 verbose addNamed [ '1.2.1', '1.2.1' ]
+80 silly lockFile 77e414a6-socket-io-1-2-1 socket.io@1.2.1
+81 verbose lock socket.io@1.2.1 /Users/kevint2u/.npm/77e414a6-socket-io-1-2-1.lock
+82 silly lockFile 03c4f5da-rg-socket-io-socket-io-1-2-1-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz
+83 verbose lock https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz /Users/kevint2u/.npm/03c4f5da-rg-socket-io-socket-io-1-2-1-tgz.lock
+84 verbose addRemoteTarball [ 'https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz',
+84 verbose addRemoteTarball   '84400af534c0d32baa9ac88937eedb5b8465ee92' ]
+85 silly addNameRange number 2 { name: 'johnny-five', range: '*', hasData: true }
+86 silly addNameRange versions [ 'johnny-five',
+86 silly addNameRange   [ '0.1.5',
+86 silly addNameRange     '0.1.6',
+86 silly addNameRange     '0.1.7',
+86 silly addNameRange     '0.1.901',
+86 silly addNameRange     '0.1.911',
+86 silly addNameRange     '0.1.950',
+86 silly addNameRange     '0.2.0',
+86 silly addNameRange     '0.2.1',
+86 silly addNameRange     '0.2.2',
+86 silly addNameRange     '0.2.3',
+86 silly addNameRange     '0.2.4',
+86 silly addNameRange     '0.3.0',
+86 silly addNameRange     '0.5.0',
+86 silly addNameRange     '0.5.2',
+86 silly addNameRange     '0.5.5',
+86 silly addNameRange     '0.5.91',
+86 silly addNameRange     '0.5.95',
+86 silly addNameRange     '0.5.97',
+86 silly addNameRange     '0.5.10',
+86 silly addNameRange     '0.5.11',
+86 silly addNameRange     '0.5.14',
+86 silly addNameRange     '0.5.15',
+86 silly addNameRange     '0.5.16',
+86 silly addNameRange     '0.5.17',
+86 silly addNameRange     '0.6.0',
+86 silly addNameRange     '0.6.1',
+86 silly addNameRange     '0.6.2',
+86 silly addNameRange     '0.6.3',
+86 silly addNameRange     '0.6.5',
+86 silly addNameRange     '0.6.6',
+86 silly addNameRange     '0.6.8',
+86 silly addNameRange     '0.6.9',
+86 silly addNameRange     '0.6.11',
+86 silly addNameRange     '0.6.13',
+86 silly addNameRange     '0.6.14',
+86 silly addNameRange     '0.6.15',
+86 silly addNameRange     '0.6.16',
+86 silly addNameRange     '0.6.17',
+86 silly addNameRange     '0.6.18',
+86 silly addNameRange     '0.6.19',
+86 silly addNameRange     '0.6.20',
+86 silly addNameRange     '0.7.0',
+86 silly addNameRange     '0.7.1',
+86 silly addNameRange     '0.7.2',
+86 silly addNameRange     '0.7.3',
+86 silly addNameRange     '0.7.4',
+86 silly addNameRange     '0.7.5',
+86 silly addNameRange     '0.7.6',
+86 silly addNameRange     '0.7.8',
+86 silly addNameRange     '0.7.10',
+86 silly addNameRange     '0.7.11',
+86 silly addNameRange     '0.7.13',
+86 silly addNameRange     '0.7.15',
+86 silly addNameRange     '0.7.16',
+86 silly addNameRange     '0.7.17',
+86 silly addNameRange     '0.7.18',
+86 silly addNameRange     '0.7.19',
+86 silly addNameRange     '0.7.20',
+86 silly addNameRange     '0.7.21',
+86 silly addNameRange     '0.7.22',
+86 silly addNameRange     '0.7.23',
+86 silly addNameRange     '0.7.24',
+86 silly addNameRange     '0.7.26',
+86 silly addNameRange     '0.7.27',
+86 silly addNameRange     '0.7.28',
+86 silly addNameRange     '0.7.29',
+86 silly addNameRange     '0.7.30',
+86 silly addNameRange     '0.7.31',
+86 silly addNameRange     '0.7.32',
+86 silly addNameRange     '0.7.33',
+86 silly addNameRange     '0.7.34',
+86 silly addNameRange     '0.7.35',
+86 silly addNameRange     '0.7.36',
+86 silly addNameRange     '0.7.37',
+86 silly addNameRange     '0.7.38',
+86 silly addNameRange     '0.7.39',
+86 silly addNameRange     '0.7.40',
+86 silly addNameRange     '0.7.41',
+86 silly addNameRange     '0.7.42',
+86 silly addNameRange     '0.7.43',
+86 silly addNameRange     '0.7.44',
+86 silly addNameRange     '0.7.45',
+86 silly addNameRange     '0.7.46',
+86 silly addNameRange     '0.7.47',
+86 silly addNameRange     '0.7.48',
+86 silly addNameRange     '0.7.49',
+86 silly addNameRange     '0.7.50',
+86 silly addNameRange     '0.7.51',
+86 silly addNameRange     '0.7.52',
+86 silly addNameRange     '0.7.54',
+86 silly addNameRange     '0.7.55',
+86 silly addNameRange     '0.7.56',
+86 silly addNameRange     '0.8.0',
+86 silly addNameRange     '0.8.1',
+86 silly addNameRange     '0.8.2',
+86 silly addNameRange     '0.8.3',
+86 silly addNameRange     '0.8.4',
+86 silly addNameRange     '0.8.5',
+86 silly addNameRange     '0.8.6',
+86 silly addNameRange     '0.8.7',
+86 silly addNameRange     '0.8.8',
+86 silly addNameRange     '0.8.9',
+86 silly addNameRange     '0.8.10',
+86 silly addNameRange     '0.8.11',
+86 silly addNameRange     '0.8.12',
+86 silly addNameRange     '0.8.13',
+86 silly addNameRange     '0.8.14',
+86 silly addNameRange     '0.8.15',
+86 silly addNameRange     '0.8.16',
+86 silly addNameRange     '0.8.17',
+86 silly addNameRange     '0.8.18',
+86 silly addNameRange     '0.8.19',
+86 silly addNameRange     '0.8.20',
+86 silly addNameRange     '0.8.21',
+86 silly addNameRange     '0.8.22',
+86 silly addNameRange     '0.8.23',
+86 silly addNameRange     '0.8.24',
+86 silly addNameRange     '0.8.25',
+86 silly addNameRange     '0.8.26',
+86 silly addNameRange     '0.8.27',
+86 silly addNameRange     '0.8.28',
+86 silly addNameRange     '0.8.29' ] ]
+87 verbose addNamed [ 'johnny-five', '0.8.29' ]
+88 verbose addNamed [ '0.8.29', '0.8.29' ]
+89 silly lockFile ff4c9a86-johnny-five-0-8-29 johnny-five@0.8.29
+90 verbose lock johnny-five@0.8.29 /Users/kevint2u/.npm/ff4c9a86-johnny-five-0-8-29.lock
+91 info retry fetch attempt 1 at 00:25:05
+92 verbose fetch to= /var/folders/ll/x9f_8tbs6s59l0fxr67j3nr00000gr/T/npm-15515-urEvyIkO/registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz
+93 http GET https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz
+94 silly lockFile ff4c9a86-johnny-five-0-8-29 johnny-five@0.8.29
+95 silly lockFile ff4c9a86-johnny-five-0-8-29 johnny-five@0.8.29
+96 silly lockFile 22931f58-johnny-five johnny-five@
+97 silly lockFile 22931f58-johnny-five johnny-five@
+98 http 200 https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz
+99 silly lockFile 03c4f5da-rg-socket-io-socket-io-1-2-1-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz
+100 silly lockFile 03c4f5da-rg-socket-io-socket-io-1-2-1-tgz https://registry.npmjs.org/socket.io/-/socket.io-1.2.1.tgz
+101 silly lockFile 77e414a6-socket-io-1-2-1 socket.io@1.2.1
+102 silly lockFile 77e414a6-socket-io-1-2-1 socket.io@1.2.1
+103 silly lockFile c03de861-socket-io socket.io@
+104 silly lockFile c03de861-socket-io socket.io@
+105 error 404 404 Not Found: epxress
+105 error 404
+105 error 404 'epxress' is not in the npm registry.
+105 error 404 You should bug the author to publish it
+105 error 404
+105 error 404 Note that you can also install from a
+105 error 404 tarball, folder, or http url, or git url.
+106 error System Darwin 14.0.0
+107 error command "node" "/usr/local/bin/npm" "install" "socket.io" "epxress" "johnny-five"
+108 error cwd /Users/kevint2u/Desktop/Personal/Projects/In-sight/insight-app
+109 error node -v v0.10.33
+110 error npm -v 1.4.28
+111 error code E404
+112 verbose exit [ 1, true ]
