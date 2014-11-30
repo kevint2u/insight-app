@@ -3,10 +3,12 @@ insight-app
 
 arduino + node.js + google glass
 
-Usage: 
+Usage:
+======
 Run "sudo node server.js" in root folder
 
 Resources:
+==========
 Node.js/Socket.io:
 http://blog.derivatived.com/posts/Control-Your-Robot-With-Node.js-Raspberry-PI-and-Arduino/
 
