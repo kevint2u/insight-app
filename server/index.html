@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready( function() { 
+
+			var foundNewImage = true;
+			
+			function convertImgToBase64URL(url, callback, outputFormat){
+				var canvas = document.createElement('CANVAS'),
+					ctx = canvas.getContext('2d'),
+					img = new Image;
+				img.crossOrigin = 'Anonymous';
+				img.onload = function(){
+					var dataURL;
+					canvas.height = img.height;
+					canvas.width = img.width;
+					ctx.drawImage(img, 0, 0);
+					dataURL = canvas.toDataURL(outputFormat);
+					callback.call(this, dataURL);
+					canvas = null; 
+				};
+				img.src = url;
+			}
+			
+			setInterval(function(){ 
+				if(foundNewImage){
+					var currentdate = new Date(); 
+					var datetime = 	(currentdate.getMonth()+1) + "/"
+									+ currentdate.getDate()  + "/" 
+									+ currentdate.getFullYear() + " @ "  
+									+ currentdate.getHours() + ":"  
+									+ currentdate.getMinutes() + ":" 
+									+ currentdate.getSeconds();
+					console.log('updated image: ', datetime);
+					convertImgToBase64URL('http://localhost:5000/image.jpg', function(base64Img){
+						$('#image-target').html('<img src="' + base64Img + '" />');
+					});
+				}
+			}, 5000);
+		});
+	</script>
+
+</head>
+
+<body>
+	<div id="image-target" src=""></div>
+</body>
+
+
+
+</html>
