@@ -1,9 +1,13 @@
 insight-app
 ===========
 
+From "server" folder run:
+python -m SimpleHTTPServer 5000
+
+
 arduino + node.js + google glass
 
-Usage:
+Arduino->Server Usage:
 ------
 Run "sudo node server.js" in root folder.
 Open "localhost:80"
